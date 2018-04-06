@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Score</title>
+    <link rel="stylesheet" type="text/css" href="./lib/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="./lib/css/secondarypage.css"/>
+    <link rel="stylesheet" type="text/css" href="./lib/css/swiper.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./lib/css/animate.css"/>
+
+</head>
+<body ng-app="myApp">
+
+<div style="padding: 0px;">
+    <img class="col-lg-12 col-md-12 col-xs-12" src="lib/images/SecondaryPage/head.png">
+</div>
+<div class="container" ng-controller="ctl1">
+
+    <div class="text-center" style="font-size: 18px;color: #666">
+        <strong><span style="color: rgb(112,112,112);font-size: 18px;">尊敬的：</span></strong><u>&nbsp;&nbsp;&nbsp;&nbsp;</u>
+        <br>
+        根据您的品类以及需求，我们帮您筛选了如下的案例视频<br>
+        在阅读完视频后，对于视频进行喜好选择，在喜欢的视频内容下勾选like<br>
+        标记，并根据标签内容跟进选择您认为的视频亮点。<br>
+    </div>
+
+    <div>
+        <div class="row col-lg-3 col-md-6 big_pic" ng-repeat="x in pictures">
+            <div class="pic_area">
+                <div class="pic_container video-box2" data-movie="{{x.video}}">
+                    <img style="height: 305px;" src="lib/images/SecondaryPage/{{x.img}}">
+                    <video style="display: none;-moz-box-shadow:-7px -6px 14px #333333; -webkit-box-shadow:-7px -6px 14px #333333; box-shadow:-7px -6px 14px rgb(193,190,183);" height="300px" width="100%" poster="lib/images/SecondaryPage/{{x.img}}">
+                        <!--<source src="../ftw-master/videos/1.mp4"  type="video/mp4">-->
+                        <source src="{{x.video}}"  type="video/mp4">
+                        您的浏览器不支持 video 标签。
+                    </video>
+                </div>
+
+                <p style="margin-top: 1.5rem;"><span style="color: rgb(68,184,199);">类目</span>-产品2018</p>
+                <p>商务双肩包男士简约轻便电脑包休闲舒适旅行背包</p>
+
+                <div class="star" data-id="{{x.id}}" data-score="{{x.score}}">
+                    <ul>
+                        <li><a href="javascript:;">1</a></li>
+                        <li><a href="javascript:;">2</a></li>
+                        <li><a href="javascript:;">3</a></li>
+                        <li><a href="javascript:;">4</a></li>
+                        <li><a href="javascript:;">5</a></li>
+                    </ul>
+
+                    <!--<div class="my_heart" style="float: right;margin-right:10px;color:#E8D5FF;font-size: 13px;">-->
+                    <!--<span style="font-size: 25px;margin-right:10px;" class="glyphicon glyphicon-heart smallheart">-->
+
+                    <!--</span>-->
+                    <!--</div>-->
+
+                    <div class="heart" id="like2" rel="like"></div>
+                    <!--<div style="display: none;" class="likeCount" id="likeCount2">10</div>-->
+                </div>
+
+                <!--爱心-->
+                <!--11-->
+                <!--<span class="glyphicon glyphicon-heart"></span>-->
+                <!--<div style="color:#e3d7ff;font-size: 13px;">-->
+                <!--<span style="font-size: 20px;" class="glyphicon glyphicon-star"></span>-->
+                <!--</div>-->
+                <!--<span class="glyphicon glyphicon-star-empty"></span>-->
+
+                <div class="pic_foot" data-music="0" data-style="0" data-back="0" data-struct="0" data-mode="0"
+                     data-copy="0">
+                    <div onclick="record('data-music',this)" style="padding:0 0.5rem" class="col-lg-4 col-md-4 col-xs-4">
+                        <div class="pic_foot_2">
+                            <span class="glyphicon glyphicon-thumbs-up pic_normal"></span><span class="pic_normal"
+                                                                                                style="margin-left: 0.2rem;">音乐</span>
+                        </div>
+                    </div>
+                    <div onclick="record('data-style',this)" style="padding:0 0.5rem" class="col-lg-4 col-md-4 col-xs-4">
+                        <div class="pic_foot_2">
+                            <span class="glyphicon glyphicon-thumbs-up pic_normal"></span><span class="pic_normal"
+                                                                                            style="margin-left: 0.2rem;">风格</span>
+                        </div>
+                    </div>
+                    <div onclick="record('data-back',this)" style="padding:0 0.5rem" class="col-lg-4 col-md-4 col-xs-4">
+                        <div class="pic_foot_2">
+                            <span class="glyphicon glyphicon-thumbs-up pic_normal"></span><span class="pic_normal"
+                                                                                            style="margin-left: 0.2rem;">背景</span>
+                        </div>
+                    </div>
+                    <!--<br>-->
+                    <div onclick="record('data-struct',this)" style="padding:0 0.5rem" class="col-lg-4 col-md-4 col-xs-4">
+                        <div class="pic_foot_2">
+                            <span class="glyphicon glyphicon-thumbs-up pic_normal"></span><span class="pic_normal"
+                                                                                            style="margin-left: 0.2rem;">结构</span>
+                        </div>
+                    </div>
+                    <div onclick="record('data-mode',this)" style="padding:0 0.5rem" class="col-lg-4 col-md-4 col-xs-4">
+                        <div class="pic_foot_2">
+                            <span class="glyphicon glyphicon-thumbs-up pic_normal"></span><span class="pic_normal"
+                                                                                                style="margin-left: 0.2rem;">构图</span>
+                        </div>
+
+                    </div>
+                    <div onclick="record('data-copy',this)" style="padding:0 0.5rem" class="col-lg-4 col-md-4 col-xs-4">
+                        <div class="pic_foot_2">
+                            <span class="glyphicon glyphicon-thumbs-up pic_normal"></span><span class="pic_normal"
+                                                                                            style="margin-left: 0.2rem;">文案</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="text-center" style="font-size: 18px;">
+        <strong>&nbsp;</strong>
+
+    </div>
+
+    <div class="confirm">
+        <div style="font-size: 30px;">确认提交</div>
+        <!--<br>-->
+        <div style="font-size: 20px;">CONFIRM</div>
+    </div>
+
+    <div class="text-center" style="font-size: 20px;color:rgb(169,180,184);margin-top: 3rem;">
+        PS:视频星级代表拍摄的水平和难度，星级越高视频制作的费用也会随之增加，望知悉！
+    </div>
+    <div style="width: 100px;height: 100px;">
+
+    </div>
+    <div id="my_video" class="body-cover">
+        <span class="close" id="close">&times;</span>
+        <video src="" class="video-play" preload="load" controls="controls" autoplay="autoplay">
+            对不起，你的设备不支持此类型的视频播放
+        </video>
+    </div>
+
+</div>
+
+<script src="./lib/js/jquery.min.js"></script>
+<script src="./lib/js/scrollspy.js"></script>
+<script src="./lib/js/swiper-jquery.min.js"></script>
+<script src="./lib/js/angular.min.js"></script>
+<script src="./lib/js/bootstrap.min.js"></script>
+<script src="./lib/js/common.js"></script>
+<script src="./lib/js/common/secondpage.js"></script>
+<script src="./lib/js/common/second.js"></script>
+
+</body>
+</html>

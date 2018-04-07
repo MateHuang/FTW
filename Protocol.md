@@ -9,9 +9,18 @@ http://weixin8.xiaoheqingting.com/app/index.php?i=1&c=entry&id=2&do=select&m=xc_
 
 ### 接口地址：
 
-> http://weixin8.xiaoheqingting.com/app/index.php?i=1&c=entry&do=GetSelectData&m=xc_tmall&custom_id=23232232
+> http://weixin8.xiaoheqingting.com/app/index.php?i=1&c=entry&do=GetSelectData&m=xc_tmall&custom_id=23232232&cbfunc=YourJSCbFunc
 
-其中，custom_id 我可以通过两种方式给你，看哪种你更方便：
+
+ - cbfunc
+ 
+ jsonp 的回调函数
+ 
+ - custom_id
+
+客户 ID
+
+custom_id 我可以通过两种方式给你，看哪种你更方便：
 
 方法1. 的具体值会在 SecondaryPages.html 最前面作为全局变量传入 custom_id，例如
 
@@ -26,7 +35,7 @@ var custom_id = 323243;
 
 ### 返回结果
 
-返回 json 结果.
+返回 jsonp 结果.
 
 当出现异常时， errno 不为 0 ，message 字段提示出错原因。
 成功时， errno 为 0， message 字段是具体结果内容
@@ -84,10 +93,13 @@ var custom_id = 323243;
 > http://weixin8.xiaoheqingting.com/app/index.php?i=1&c=entry&do=SaveSelectResult&m=xc_tmall
 
 ### 提交字段：
+ - cbfunc
+ 
+ jsonp 的回调函数
+ 
+ - data
 
- - result
-
-result 是一个 json 字符串，包含了
+data 是一个 json 字符串，包含了
 
  1. 客户 ID
  1. 客户选择的结果
@@ -122,7 +134,7 @@ result 是一个 json 字符串，包含了
 
 ### 提交结果
 
-返回 json, errno 为 0 表示成功，非 0 表示失败， message 指示具体失败原因。
+返回 jsonp 结果, errno 为 0 表示成功，非 0 表示失败， message 指示具体失败原因。
 
 ```
 {"errno":"2","message":"\u975e\u6cd5\u8bf7\u6c42"}

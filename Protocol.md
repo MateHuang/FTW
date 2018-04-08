@@ -53,7 +53,9 @@ var custom_id = 323243;
                 "title": "物生物焖烧杯超长保温饭盒便当成人儿童粥汤桶闷烧壶罐304不锈钢 - 天猫Tmall.com", 
                 "video": "http://cloud.video.taobao.com/play/u/1689522943/p/2/e/6/t/1/50001222925.mp4?appKey=38824", 
                 "poster": "http://weixin8.xiaoheqingting.com/addons/xc_tmall/template/mobile/videos/poster01.jpg", 
-                "tag": "饭盒"
+                "tag": "饭盒",
+                "like" : 0,
+                "chosen_tag" : ""
             }, 
             {
                 "id": 1324, 
@@ -61,7 +63,9 @@ var custom_id = 323243;
                 "title": "304不锈钢超长保温饭盒3层成人12/24小时多层真空便携保温桶学生", 
                 "video": "http://cloud.video.taobao.com/play/u/1689522943/p/2/e/6/t/1/50001222925.mp4?appKey=38824", 
                 "poster": "http://weixin8.xiaoheqingting.com/addons/xc_tmall/template/mobile/videos/poster02.jpg", 
-                "tag": "饭盒"
+                "tag": "饭盒",
+                "like" : 0,
+                "chosen_tag" : ""
             }, 
             {
                 "id": 1323, 
@@ -69,7 +73,9 @@ var custom_id = 323243;
                 "title": "手提大容量不锈钢饭盒学生双层保温便当盒成人日式分格多层餐盒子", 
                 "video": "http://cloud.video.taobao.com/play/u/1689522943/p/2/e/6/t/1/50001222925.mp4?appKey=38824", 
                 "poster": "http://weixin8.xiaoheqingting.com/addons/xc_tmall/template/mobile/videos/poster03.jpg", 
-                "tag": "饭盒"
+                "tag": "饭盒",
+                "like" : 1,
+                "chosen_tag" : "背景"
             }, 
             {
                 "id": 1323, 
@@ -77,7 +83,9 @@ var custom_id = 323243;
                 "title": "物生物焖烧杯保温桶 焖烧壶罐饭桶保温盒学生保温饭盒", 
                 "video": "http://cloud.video.taobao.com/play/u/1689522943/p/2/e/6/t/1/50001222925.mp4?appKey=38824", 
                 "poster": "http://weixin8.xiaoheqingting.com/addons/xc_tmall/template/mobile/videos/poster04.jpg", 
-                "tag": "饭盒"
+                "tag": "饭盒",
+                "like" : 1,
+                "chosen_tag" : "音乐,背景"
             }
         ]
     }
@@ -111,22 +119,22 @@ data 是一个 json 字符串，包含了
         {
             "id": 1323,
             "like": 1,
-            "tag": "音乐,构图"
+            "chosen_tag": "音乐,构图"
         },
         {
             "id": 2012,
             "like": 1,
-            "tag": "文案,构图"
+            "chosen_tag": "文案,构图"
         },
         {
             "id": 1323,
             "like": 0,
-            "tag": "构图"
+            "chosen_tag": "构图"
         },
         {
             "id": 1373,
             "like": 0,
-            "tag": "背景"
+            "chosen_tag": "背景"
         }
     ]
 }

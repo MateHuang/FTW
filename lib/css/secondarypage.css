@@ -1,4 +1,4 @@
-*{
+﻿*{
     margin:0;padding:0;
     font-size:13px;
 }
@@ -6,7 +6,7 @@ body{
     background: rgb(247,248,250);
 }
 
-p{
+p:not(.title){
     display: block;
     color: #666;
     height: 14px;
@@ -215,4 +215,24 @@ a{color: #7ac9ed;}
 /*确认键*/
 .confirm:hover{
     background: rgb(255,148,2);
+}
+
+.title{
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+    /*display: block;*/
+    color: #666;
+    height: 34px;
+    line-height: 17px;
+    margin-bottom: 6px;
+    margin-left: 10px;
+    padding-left: 10px;
+    word-break: break-all;
+    font-size: 15px;
+    position: relative;
+    width:90%;
 }

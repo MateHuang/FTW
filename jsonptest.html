@@ -9,10 +9,10 @@
             $("#btn1").click(function () {
 
                 $.ajax({
-                    url: "http://weixin8.xiaoheqingting.com/app/index.php?i=1&c=entry&id=2&do=SaveSelectResult&m=xc_tmall&custom_id=23&cbfunc=myJsonCb&selection=xxx",
+                    url: "http://weixin8.xiaoheqingting.com/app/index.php?i=1&c=entry&id=2&do=SaveSelectResult&m=xc_tmall&custom_id=23&callback=myJsonCb&selection=xxx",
                     type: "POST",   //post请求方式
                     dataType: "jsonp",
-                    jsonp: "cbfunc",
+                    jsonp: "callback",
                     success: function (data) {
                         var result = JSON.stringify(data);
                         $("#text").val(result);
@@ -27,7 +27,7 @@
                     url: "http://weixin8.xiaoheqingting.com/app/index.php?i=1&c=entry&id=2&do=GetSelectData&m=xc_tmall&custom_id=23",
                     type: "POST",   //post请求方式
                     dataType: "jsonp",
-                    jsonp: "cbfunc",
+                    jsonp: "callback",
                     success: function (data) {
                         var result = JSON.stringify(data);
                         $("#text").val(result);

@@ -9,10 +9,10 @@ http://weixin8.xiaoheqingting.com/app/index.php?i=1&c=entry&id=2&do=select&m=xc_
 
 ### 接口地址：
 
-> http://weixin8.xiaoheqingting.com/app/index.php?i=1&c=entry&do=GetSelectData&m=xc_tmall&custom_id=23232232&cbfunc=YourJSCbFunc
+> http://weixin8.xiaoheqingting.com/app/index.php?i=1&c=entry&do=GetSelectData&m=xc_tmall&custom_id=23232232&callback=YourJSCbFunc
 
 
- - cbfunc
+ - callback
  
  jsonp 的回调函数
  
@@ -93,7 +93,7 @@ var custom_id = 323243;
 > http://weixin8.xiaoheqingting.com/app/index.php?i=1&c=entry&do=SaveSelectResult&m=xc_tmall
 
 ### 提交字段：
- - cbfunc
+ - callback
  
  jsonp 的回调函数
  

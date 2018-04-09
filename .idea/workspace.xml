@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffbef8ac-d5a3-4f60-bf0e-dc025dc45f66" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/selected.html" afterPath="$PROJECT_DIR$/selected.html" />
-    </list>
+    <list default="true" id="ffbef8ac-d5a3-4f60-bf0e-dc025dc45f66" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -239,16 +237,15 @@
       <workItem from="1522206688807" duration="72853000" />
       <workItem from="1522483998971" duration="2136000" />
       <workItem from="1522488841253" duration="2031000" />
-      <workItem from="1523177658295" duration="21759000" />
+      <workItem from="1523177658295" duration="22358000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108169000" />
+    <option name="totallyTimeSpent" value="108768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="753" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15812592" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />

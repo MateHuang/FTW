@@ -7,7 +7,25 @@ html,body {
     position: relative;
 }
 
-#nav1,#nav2,#nav3{
+/*选中样式*/
+.back_active{
+    background-color: black;
+    padding:15px 5px;
+    text-align: center;
+}
+.word_active{
+    font-family: 微软雅黑;
+    font-size: 15px;
+    color: white;
+}
+/*非选中*/
+.word_unact{
+    font-family: 微软雅黑;
+    font-size: 15px;
+    color: #000000;
+}
+
+.back_unact{
     padding:15px 5px;
     background-color: #F1F1F1;
     text-align: center;
@@ -56,27 +74,3 @@ html,body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-#left_nav li{
-    font-family: 微软雅黑;
-    font-size: 15px;
-    color: #000000;
-}
-
-#left_nav p{
-    font-family: 微软雅黑;
-    font-size: medium;
-    font-weight: bold;
-    color: #000000;
-}

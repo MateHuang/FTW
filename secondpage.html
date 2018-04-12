@@ -45,7 +45,7 @@
 
         <div class="container">
             <div class="row">
-                <div id="left_nav" class="col-lg-3" style="padding-left: 10rem;height: 100%;cursor: pointer;">
+                <div id="left_nav" class="col-lg-3 col-md-4 col-sm-6" style="padding-left: 10rem;height: 100%;cursor: pointer;">
                     <div class="left_container">
                         <div ng-mouseleave="leaveevent()" ng-mouseover="hoverevent(nav.id)" ng-click="jumpto(nav.href,nav.id)" ng-class={true:'back_active',false:'back_unact'}[nav.selected] id="{{nav.id}}" style="width: 100%" ng-repeat="nav in left_nav">
                             <a href="#{{nav.href}}"><p ng-class={true:'word_active',false:'word_unact'}[nav.selected]>{{nav.title}}</p></a>
@@ -59,8 +59,8 @@
 
 
             </div>
-                <div class="col-lg-9">
-                    <!--<div ng-include="'./lib/html/second_1.htm'"></div>-->
+                <div class="col-lg-9 col-md-8 col-sm-6">
+
                     <div ng-view></div>
                 </div>
             </div>

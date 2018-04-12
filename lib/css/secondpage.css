@@ -7,16 +7,22 @@ html,body {
     position: relative;
 }
 
+a:focus,a:hover{
+    text-decoration: none;
+}
+
 /*选中样式*/
 .back_active{
     background-color: black;
     padding:15px 5px;
     text-align: center;
+    transition: .5s;
 }
 .word_active{
     font-family: 微软雅黑;
     font-size: 15px;
     color: white;
+    transition: .5s;
 }
 /*非选中*/
 .word_unact{
@@ -68,7 +74,108 @@ html,body {
     top:100px;
     width:160px;
     bottom:0;
-    height:100%;
+    /*height:100%;*/
+    /*margin-bottom: 179px;*/
+    /*background-color: #F1F1F1;*/
+    /*height: 800px;*/
+    z-index: 1;
+}
+
+/*第三个页面的背景图*/
+#intro_1{
+    background: url(../images/second_page/intro_1.jpg) center center no-repeat;
+    height: 270px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#intro_2{
+    background: url(../images/second_page/intro_1.jpg) center center no-repeat;
+    height: 270px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#intro_3{
+    background: url(../images/second_page/intro_1.jpg) center center no-repeat;
+    height: 270px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#intro_4{
+    background: url(../images/second_page/intro_1.jpg) center center no-repeat;
+    height: 270px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+/*第2个页面的背景图*/
+#intro2_1{
+    background: url(../images/second_page/page2/intro_1.jpg) center center no-repeat;
+    height: 270px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#intro2_2{
+    background: url(../images/second_page/intro_1.jpg) center center no-repeat;
+    height: 270px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#intro2_3{
+    background: url(../images/second_page/intro_1.jpg) center center no-repeat;
+    height: 270px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.intro-two-box {
+    flex-direction: column;
+
+    /*max-width: 1172px;*/
+    /*width: 77%;*/
+    /*margin: 0 auto;*/
+    /*transition: .5s;*/
+}
+.intro-two-box div {
+    position: relative;
+    width: 50%;
+    line-height: 0;
+    height: 442px;
+}
+.intro-two-box div img {
+    width: 100%;
+    height: 100%;
+}
+
+.intro-two-box li:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1000px) {
+    .intro-two-box {
+        width: 84%;
+    }
+    .summery-content ul li {
+        width: 28% !important;
+    }
+}
+@media screen and (max-width: 800px) {
+    .intro-two-box {
+        width: 100%;
+    }
 }
 
 

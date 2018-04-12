@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>design</title>
+
+    <link rel="stylesheet" type="text/css" href="./lib/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="./lib/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="./lib/css/secondpage.css"/>
+
+</head>
+<body data-spy="scroll" data-target="#navbar-example">
+<div class="page-wrapper">
+    <header>
+        <div class="header-div">
+            <div class="top-bar-lf">你好欢迎来到...官方网站</div>
+            <div class="top-bar-rt">
+                <ul class="top-nav">
+                    <li><a href="javascript:void(0)"><i class="home"></i><span>设为首页</span></a></li>
+                    <li><a href="javascript:void(0)"><i class="star"></i><span>加入收藏</span></a></li>
+                    <li><a href="javascript:void(0)"><i class="question"></i><span>帮助中心</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-div">
+            <div class="bottom-bar-lf">
+                <a href=""><img src="./lib/images/logo.png" alt="" class="brand"/></a>
+            </div>
+            <div class="bottom-bar-rt" id="navbar-example">
+                <ol class="" role="tablist">
+                    <li><a href="#home">网站首页</a></li>
+                    <li><a href="#videos">短视频</a></li>
+                    <li class="active"><a href="#photography">摄影</a></li>
+                    <li><a href="#design">视觉</a></li>
+                    <li><a href="">许三喵</a></li>
+                    <li><a href="">FTW技术</a></li>
+                    <li class=""></li>
+                </ol>
+            </div>
+        </div>
+    </header>
+    <div ng-app="myApp" ng-controller="ctl1" class="content">
+
+        <div class="container">
+            <div class="row">
+                <div id="left_nav" class="col-lg-3" style="padding-left: 10rem;height: 100%">
+                    <div class="left_container">
+                        <div id="{{nav.id}}" style="width: 100%" ng-repeat="nav in left_nav">
+                            <a href="#{{nav.href}}"><p>{{nav.title}}</p></a>
+                            <ul style="display: block">
+                                <li ng-repeat="x in nav.items">{{x}}</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+               </div>
+                <div class="col-lg-9">
+                    <!--<div ng-include="'./lib/html/second_1.htm'"></div>-->
+                    <div ng-view></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <article>
+                <p>关注我们 :</p>
+                <ul>
+                    <li><a href=""><img src="./lib/images/weibo.png" alt=""></a></li>
+                    <li><a href=""><img src="./lib/images/weixin.png" alt=""></a></li>
+                    <li><a href=""><img src="./lib/images/tcweibo.png" alt=""></a></li>
+                </ul>
+                <p>Copyright &copy; 2015-2016 xxxxxxxx有限公司</p>
+            </article>
+            <article>
+                <ul>
+                    <li>
+                        <img src="./lib/images/tel.png" alt="">
+                        <span class="tel">400-123-4567</span>
+                    </li>
+                    <li>
+                        地址: xxxxxxxxxxxxxx
+                    </li>
+                    <li>企业邮箱: xxxxxxx.com</li>
+                </ul>
+                <div></div>
+            </article>
+        </div>
+    </footer>
+    <div class="body-cover">
+        <span class="close">&times;</span>
+        <video src="" class="video-play" preload="load" controls="controls" autoplay="autoplay">
+            对不起，你的设备不支持此类型的视频播放
+        </video>
+    </div>
+    <div class="body-cover-img">
+        <span class="close">&times;</span>
+        <img src="./lib/images/intro_3_7.png" alt="" class="image-previous">
+    </div>
+</div>
+<script src="./lib/js/jquery.min.js"></script>
+<script src="./lib/js/bootstrap.min.js"></script>
+<script src="./lib/js/angular.min.js"></script>
+<script src="./lib/js/angular-route.js"></script>
+<script src="./lib/js/common/secondpage.js"></script>
+<script>
+
+    //固定导航栏
+    $(window).scroll(function () {
+        var $nav = $(".left_nav ul li"),
+            length = $nav.length-1,//获取导航菜单 ul li 的个数
+            item = new Array(),//新建一个数组
+            sTop = $(window).scrollTop();//获取偏移的高度
+        // alert(sTop);
+
+
+        // for (var i = 0; i < length; i++) {
+        //     if (i == 0) {
+        //         item[i + 1] = $(".left_nav>div:first-child").offset().top;
+        //         if (sTop >= item[i + 1]) {
+        //             $nav.eq(i).addClass("selected").siblings("li").removeClass("selected");//选中的样式selected
+        //         }
+        //     } else {
+        //         item[i + 1] = $(".blockList>div:nth-child(" + (i + 1) + ")").offset().top;
+        //         if (sTop >= item[i + 1] - 100) {
+        //             $nav.eq(i).addClass("selected").siblings("li").removeClass("selected");
+        //         }
+        //     }
+        // }
+    })
+</script>
+</body>
+</html>

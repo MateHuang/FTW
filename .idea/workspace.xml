@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffbef8ac-d5a3-4f60-bf0e-dc025dc45f66" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/lib/js/common/second.js" afterPath="$PROJECT_DIR$/lib/js/common/second.js" />
-    </list>
+    <list default="true" id="ffbef8ac-d5a3-4f60-bf0e-dc025dc45f66" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -84,8 +81,8 @@
       <file leaf-file-name="second.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/js/common/second.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="168" column="189" lean-forward="false" selection-start-line="168" selection-start-column="189" selection-end-line="168" selection-end-column="189" />
+            <state relative-caret-position="88">
+              <caret line="166" column="98" lean-forward="true" selection-start-line="166" selection-start-column="98" selection-end-line="166" selection-end-column="98" />
               <folding>
                 <element signature="e#15270#15591#0" expanded="false" />
                 <element signature="e#15641#15937#0" expanded="false" />
@@ -314,12 +311,12 @@
       <workItem from="1523177658295" duration="22358000" />
       <workItem from="1523326970512" duration="628000" />
       <workItem from="1523450840474" duration="5389000" />
-      <workItem from="1523495300799" duration="11068000" />
+      <workItem from="1523495300799" duration="11375000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125853000" />
+    <option name="totallyTimeSpent" value="126160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="753" extended-state="6" />
@@ -866,8 +863,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/js/common/second.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="168" column="189" lean-forward="false" selection-start-line="168" selection-start-column="189" selection-end-line="168" selection-end-column="189" />
+        <state relative-caret-position="88">
+          <caret line="166" column="98" lean-forward="true" selection-start-line="166" selection-start-column="98" selection-end-line="166" selection-end-column="98" />
           <folding>
             <element signature="e#15270#15591#0" expanded="false" />
             <element signature="e#15641#15937#0" expanded="false" />

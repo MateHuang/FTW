@@ -371,6 +371,10 @@ p.sub-content {
 .instro-two-box {
     flex-direction: column;
 }
+/*.instro-two li{*/
+/*height: 200px;*/
+/*}*/
+
 .instro-two-box div {
     position: relative;
     width: 49%;
@@ -432,6 +436,7 @@ article.leader section p:nth-child(2) {
     color: #ffffff !important;
 }
 .instro-two-box div img {
+    /*max-height: 100%;*/
     width: 100%;
 }
 .instro-two-box li:nth-child(1) {

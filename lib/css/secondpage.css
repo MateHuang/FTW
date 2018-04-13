@@ -131,7 +131,25 @@ a:focus,a:hover{
 
 
 
-
+/*第1个页面的背景图*/
+#intro1_1{
+    background: url(../images/second_page/page1/intro1_1.jpg) center center no-repeat;
+    height: 270px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#intro1_2{
+    background: url(../images/second_page/page1/intro1_2.jpg) center center no-repeat;
+    height: 270px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#intro1_3{
+    background: url(../images/second_page/page1/intro1_3.jpg) center center no-repeat;
+    height: 270px;
+    width: 100%;
+    margin-bottom: 10px;
+}
 
 
 

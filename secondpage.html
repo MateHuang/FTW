@@ -51,7 +51,7 @@
                             <a href="#{{nav.href}}"><p ng-class={true:'word_active',false:'word_unact'}[nav.selected]>{{nav.title}}</p></a>
                             <!--<a><p>{{nav.title}}</p></a>-->
                             <ul style="display: block">
-                                <li ng-class={true:'word_active',false:'word_unact'}[nav.selected] ng-repeat="x in nav.items">{{x}}</li>
+                                <a href="#{{nav.href}}"><li ng-class={true:'word_active',false:'word_unact'}[nav.selected] ng-repeat="x in nav.items">{{x}}</li></a>
                             </ul>
                         </div>
                     </div>

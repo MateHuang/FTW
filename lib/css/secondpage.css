@@ -15,8 +15,9 @@ a:focus,a:hover{
 .back_active{
     background-color: black;
     padding:15px 5px;
-    text-align: center;
+    /*text-align: center;*/
     transition: .5s;
+    padding-left: 3rem;
 }
 .word_active{
     font-family: 微软雅黑;
@@ -34,7 +35,8 @@ a:focus,a:hover{
 .back_unact{
     padding:15px 5px;
     background-color: #F1F1F1;
-    text-align: center;
+    /*text-align: center;*/
+    padding-left: 3rem;
 }
 
 #nav1:hover{

@@ -12,7 +12,7 @@
 
 </head>
 <body data-spy="scroll" data-target="#navbar-example">
-<div ng-app="myApp" ng-controller="ctl1" class="page-wrapper">
+<div class="page-wrapper">
     <header>
         <div class="header-div">
             <div class="top-bar-lf">你好欢迎来到...官方网站</div>
@@ -30,18 +30,18 @@
             </div>
             <div class="bottom-bar-rt" id="navbar-example">
                 <ol class="" role="tablist">
-                    <li><a href="#">网站首页</a></li>
-                    <li ng-class={true:'active',false:''}[video]><a href="#">短视频</a></li>
-                    <li ng-class={true:'active',false:''}[photo]><a href="#">摄影</a></li>
-                    <li ng-class={true:'active',false:''}[visual]><a href="#">视觉</a></li>
-                    <li ng-class={true:'active',false:''}[ftw]><a href="#">许三喵</a></li>
-                    <li><a href="#">FTW技术</a></li>
+                    <li><a href="#home">网站首页</a></li>
+                    <li><a href="#videos">短视频</a></li>
+                    <li class="active"><a href="#photography">摄影</a></li>
+                    <li><a href="#design">视觉</a></li>
+                    <li><a href="">许三喵</a></li>
+                    <li><a href="">FTW技术</a></li>
                     <li class=""></li>
                 </ol>
             </div>
         </div>
     </header>
-    <div class="content">
+    <div ng-app="myApp" ng-controller="ctl1" class="content">
 
         <div class="container">
             <div class="row">
@@ -61,7 +61,8 @@
             </div>
                 <div class="col-lg-9 col-md-8 col-sm-6">
 
-                    <div ng-view></div>
+                    <!--<div ng-view></div>-->
+                    <div id="article" style="min-height: 500px;"></div>
                 </div>
             </div>
         </div>
@@ -107,39 +108,7 @@
 <script src="./lib/js/bootstrap.min.js"></script>
 <script src="./lib/js/angular.min.js"></script>
 <script src="./lib/js/angular-route.js"></script>
-<script src="./lib/js/common/secondpage.js"></script>
-<script>
+<script src="./lib/js/common/thirdpage.js"></script>
 
-    // $(function () {
-    //     $("#nav1")
-    // });
-
-
-
-
-    //固定导航栏
-    $(window).scroll(function () {
-        var $nav = $(".left_nav ul li"),
-            length = $nav.length-1,//获取导航菜单 ul li 的个数
-            item = new Array(),//新建一个数组
-            sTop = $(window).scrollTop();//获取偏移的高度
-        // alert(sTop);
-
-
-        // for (var i = 0; i < length; i++) {
-        //     if (i == 0) {
-        //         item[i + 1] = $(".left_nav>div:first-child").offset().top;
-        //         if (sTop >= item[i + 1]) {
-        //             $nav.eq(i).addClass("selected").siblings("li").removeClass("selected");//选中的样式selected
-        //         }
-        //     } else {
-        //         item[i + 1] = $(".blockList>div:nth-child(" + (i + 1) + ")").offset().top;
-        //         if (sTop >= item[i + 1] - 100) {
-        //             $nav.eq(i).addClass("selected").siblings("li").removeClass("selected");
-        //         }
-        //     }
-        // }
-    })
-</script>
 </body>
 </html>

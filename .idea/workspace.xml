@@ -39,10 +39,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="352" column="46" lean-forward="true" selection-start-line="352" selection-start-column="46" selection-end-line="352" selection-end-column="46" />
+            <state relative-caret-position="186">
+              <caret line="66" column="26" lean-forward="false" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="26" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -110,7 +110,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>pic_foot_2</find>
       <find>sha</find>
       <find>pic_h</find>
       <find>视频</find>
@@ -136,10 +135,11 @@
       <find>intro</find>
       <find>switch-div</find>
       <find>画册 / 商业拍摄</find>
-      <find>短视频</find>
       <find>VI体系设计</find>
       <find>ng-class</find>
       <find>3-7</find>
+      <find>video</find>
+      <find>短视频</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -284,12 +284,12 @@
       <workItem from="1523177658295" duration="22358000" />
       <workItem from="1523326970512" duration="628000" />
       <workItem from="1523450840474" duration="5389000" />
-      <workItem from="1523495300799" duration="54531000" />
+      <workItem from="1523495300799" duration="55173000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169316000" />
+    <option name="totallyTimeSpent" value="169958000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="753" extended-state="6" />
@@ -881,10 +881,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="352" column="46" lean-forward="true" selection-start-line="352" selection-start-column="46" selection-end-line="352" selection-end-column="46" />
+        <state relative-caret-position="186">
+          <caret line="66" column="26" lean-forward="false" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="26" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />

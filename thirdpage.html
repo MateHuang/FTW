@@ -64,16 +64,15 @@
                                 <a href="#{{nav.href}}"><p ng-class={true:'word_active',false:'word_unact'}[nav.selected]>{{nav.title}}</p></a>
                                 <!--<a><p>{{nav.title}}</p></a>-->
                                 <ul style="display: block">
-                                    <a href="#{{nav.href}}">
+                                    <a href="{{nav.href}}">
                                         <li ng-class={true:'word_active',false:'word_unact'}[nav.selected] ng-repeat="x in nav.items">{{x}}</li>
                                     </a>
                                 </ul>
                             </div>
 
-
                             <ul ng-show="nav.selected" class="back_unact" style="display: block">
                                 <!--ng-class={true:'word_active',false:'word_unact'}[nav.selected]-->
-                                <li ng-repeat="su in nav.success">
+                                <li ng-click="loadcontext(su.url)" ng-repeat="su in nav.success">
                                     <a style="font-family: 微软雅黑;font-size: 15px;color: black;" href="#{{su.url.href}}">{{su.name}}</a>
                                 </li>
                             </ul>

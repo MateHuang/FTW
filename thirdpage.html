@@ -9,6 +9,17 @@
     <link rel="stylesheet" type="text/css" href="./lib/css/bootstrap.css"/>
     <link rel="stylesheet" type="text/css" href="./lib/css/common.css"/>
     <link rel="stylesheet" type="text/css" href="./lib/css/secondpage.css"/>
+    <style>
+        .article-content {
+            font-size: 15px;
+            line-height: 25px;
+            word-wrap: break-word;
+        }
+        .article-content p {
+            margin-bottom: 20px;
+            word-wrap: break-word;
+        }
+    </style>
 
 </head>
 <body data-spy="scroll" data-target="#navbar-example">
@@ -47,12 +58,26 @@
             <div class="row">
                 <div id="left_nav" class="col-lg-3 col-md-4 col-sm-6" style="padding-left: 10rem;height: 100%;cursor: pointer;">
                     <div class="left_container">
-                        <div ng-mouseleave="leaveevent()" ng-mouseover="hoverevent(nav.id)" ng-click="jumpto(nav.href,nav.id)" ng-class={true:'back_active',false:'back_unact'}[nav.selected] id="{{nav.id}}" style="width: 100%" ng-repeat="nav in left_nav">
-                            <a href="#{{nav.href}}"><p ng-class={true:'word_active',false:'word_unact'}[nav.selected]>{{nav.title}}</p></a>
-                            <!--<a><p>{{nav.title}}</p></a>-->
-                            <ul style="display: block">
-                                <a href="#{{nav.href}}"><li ng-class={true:'word_active',false:'word_unact'}[nav.selected] ng-repeat="x in nav.items">{{x}}</li></a>
+                        <div style="width: 100%" ng-repeat="nav in left_nav">
+
+                            <div ng-mouseleave="leaveevent()" ng-mouseover="hoverevent(nav.id)" ng-click="jumpto(nav.href,nav.id)" ng-class={true:'back_active',false:'back_unact'}[nav.selected] id="{{nav.id}}" >
+                                <a href="#{{nav.href}}"><p ng-class={true:'word_active',false:'word_unact'}[nav.selected]>{{nav.title}}</p></a>
+                                <!--<a><p>{{nav.title}}</p></a>-->
+                                <ul style="display: block">
+                                    <a href="#{{nav.href}}">
+                                        <li ng-class={true:'word_active',false:'word_unact'}[nav.selected] ng-repeat="x in nav.items">{{x}}</li>
+                                    </a>
+                                </ul>
+                            </div>
+
+
+                            <ul ng-show="nav.selected" class="back_unact" style="display: block">
+                                <!--ng-class={true:'word_active',false:'word_unact'}[nav.selected]-->
+                                <li ng-repeat="su in nav.success">
+                                    <a style="font-family: 微软雅黑;font-size: 15px;color: black;" href="#{{su.url.href}}">{{su.name}}</a>
+                                </li>
                             </ul>
+
                         </div>
                     </div>
 
@@ -62,7 +87,16 @@
                 <div class="col-lg-9 col-md-8 col-sm-6">
 
                     <!--<div ng-view></div>-->
-                    <div id="article" style="min-height: 500px;"></div>
+                    <div style="width: 100%;float: left;">
+                        <div style="min-height: 500px;margin-bottom:30px;padding: 0 20px;background-color: #fff;border: 1px solid #eaeaea;border-radius: 4px;">
+                            <h1  id="title" class="article-title">
+
+                            </h1>
+                            <article class="article-content" id="article"></article>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
         </div>

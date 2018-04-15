@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffbef8ac-d5a3-4f60-bf0e-dc025dc45f66" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/111.html" afterPath="$PROJECT_DIR$/111.html" />
+      <change beforePath="$PROJECT_DIR$/lib/css/common.css" afterPath="$PROJECT_DIR$/lib/css/common.css" />
+      <change beforePath="$PROJECT_DIR$/lib/js/common/thirdpage.js" afterPath="$PROJECT_DIR$/lib/js/common/thirdpage.js" />
+      <change beforePath="$PROJECT_DIR$/thirdpage.html" afterPath="$PROJECT_DIR$/thirdpage.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,27 +19,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="secondpage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/secondpage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="36" column="61" lean-forward="false" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
-              <folding>
-                <element signature="n#ul#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="186">
@@ -56,14 +39,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thirdpage.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="thirdpage.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/thirdpage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="84" column="50" lean-forward="false" selection-start-line="84" selection-start-column="50" selection-end-line="84" selection-end-column="50" />
+            <state relative-caret-position="550">
+              <caret line="76" column="93" lean-forward="false" selection-start-line="76" selection-start-column="93" selection-end-line="76" selection-end-column="93" />
               <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="111.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/111.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="99" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="99" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#1;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#1241#1247#0" expanded="true" />
+                <element signature="e#1276#1282#0" expanded="true" />
+                <element signature="e#1344#1350#0" expanded="true" />
+                <element signature="e#1384#1390#0" expanded="true" />
+                <element signature="e#1419#1425#0" expanded="true" />
+                <element signature="e#1455#1461#0" expanded="true" />
+                <element signature="e#1494#1500#0" expanded="true" />
+                <element signature="e#1571#1577#0" expanded="true" />
+                <element signature="n#style#0;n#h1#2;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#1940#1946#0" expanded="true" />
+                <element signature="e#1983#1989#0" expanded="true" />
+                <element signature="e#2036#2042#0" expanded="true" />
+                <element signature="e#2078#2084#0" expanded="true" />
+                <element signature="e#2125#2131#0" expanded="true" />
+                <element signature="n#style#0;n#p#22;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#2322#2328#0" expanded="true" />
+                <element signature="n#style#0;n#p#23;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#2577#2584#0" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#3238#3246#0" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#form#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="secondpage.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/css/secondpage.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -71,27 +111,10 @@
       <file leaf-file-name="thirdpage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/js/common/thirdpage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+            <state relative-caret-position="258">
+              <caret line="91" column="14" lean-forward="true" selection-start-line="84" selection-start-column="7" selection-end-line="91" selection-end-column="14" />
               <folding>
-                <element signature="e#1100#1247#0" expanded="false" />
-                <element signature="e#1257#1430#0" expanded="false" />
-                <element signature="e#1440#1622#0" expanded="false" />
-                <element signature="e#1662#1912#0" expanded="false" />
-                <element signature="e#1948#2214#0" expanded="false" />
-                <element signature="e#2253#2626#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="secondpage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/js/common/secondpage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="17" />
-              <folding>
-                <element signature="e#150#455#0" expanded="false" />
+                <element signature="e#3130#3503#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -118,7 +141,6 @@
       <find>confi</find>
       <find>star</find>
       <find>pic_container</find>
-      <find>hover</find>
       <find>[</find>
       <find>left_nav</find>
       <find>left_item</find>
@@ -136,10 +158,11 @@
       <find>switch-div</find>
       <find>画册 / 商业拍摄</find>
       <find>VI体系设计</find>
-      <find>ng-class</find>
       <find>3-7</find>
       <find>video</find>
       <find>短视频</find>
+      <find>ng-class</find>
+      <find>hover</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -152,7 +175,6 @@
         <option value="$PROJECT_DIR$/lib/html/directives/pic.htm" />
         <option value="$PROJECT_DIR$/lib/js/common/public_v7.js" />
         <option value="$PROJECT_DIR$/SecondaryPages.html" />
-        <option value="$PROJECT_DIR$/111.html" />
         <option value="$PROJECT_DIR$/lib/css/secondarypage.css" />
         <option value="$PROJECT_DIR$/selected.html" />
         <option value="$PROJECT_DIR$/secondpage3.html" />
@@ -160,16 +182,17 @@
         <option value="$PROJECT_DIR$/lib/html/second_2.html" />
         <option value="$PROJECT_DIR$/lib/html/second_3.html" />
         <option value="$PROJECT_DIR$/lib/html/second_3.htm" />
-        <option value="$PROJECT_DIR$/lib/css/common.css" />
         <option value="$PROJECT_DIR$/lib/html/second_2.htm" />
         <option value="$PROJECT_DIR$/lib/html/second_1.htm" />
         <option value="$PROJECT_DIR$/lib/css/secondpage.css" />
-        <option value="$PROJECT_DIR$/lib/js/common/thirdpage.js" />
         <option value="$PROJECT_DIR$/lib/js/common/second.js" />
         <option value="$PROJECT_DIR$/lib/js/common/secondpage.js" />
         <option value="$PROJECT_DIR$/secondpage.html" />
-        <option value="$PROJECT_DIR$/thirdpage.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/111.html" />
+        <option value="$PROJECT_DIR$/lib/css/common.css" />
+        <option value="$PROJECT_DIR$/lib/js/common/thirdpage.js" />
+        <option value="$PROJECT_DIR$/thirdpage.html" />
       </list>
     </option>
   </component>
@@ -179,9 +202,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="49" />
-    <option name="y" value="-14" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-32" />
+    <option name="y" value="75" />
     <option name="width" value="1053" />
     <option name="height" value="484" />
   </component>
@@ -211,6 +234,12 @@
               <item name="MateHuang.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="MateHuang.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MateHuang.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MateHuang.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MateHuang.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -284,15 +313,15 @@
       <workItem from="1523177658295" duration="22358000" />
       <workItem from="1523326970512" duration="628000" />
       <workItem from="1523450840474" duration="5389000" />
-      <workItem from="1523495300799" duration="55173000" />
+      <workItem from="1523495300799" duration="64692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169958000" />
+    <option name="totallyTimeSpent" value="179477000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="753" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="753" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15812592" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -645,13 +674,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/js/common/public_v7.js" />
     <entry file="file://$PROJECT_DIR$/SecondaryPages.html" />
-    <entry file="file://$PROJECT_DIR$/111.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="141" column="0" lean-forward="true" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
@@ -697,22 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="49" column="14" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/css/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/css/secondpage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="38" column="23" lean-forward="false" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -828,7 +834,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/js/common/secondpage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="-198">
           <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="17" />
           <folding>
             <element signature="e#150#455#0" expanded="false" />
@@ -836,24 +842,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/js/common/thirdpage.js">
+    <entry file="file://$PROJECT_DIR$/lib/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="524" column="23" lean-forward="false" selection-start-line="524" selection-start-column="23" selection-end-line="524" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/css/secondpage.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/111.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="99" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="99" />
           <folding>
-            <element signature="e#1100#1247#0" expanded="false" />
-            <element signature="e#1257#1430#0" expanded="false" />
-            <element signature="e#1440#1622#0" expanded="false" />
-            <element signature="e#1662#1912#0" expanded="false" />
-            <element signature="e#1948#2214#0" expanded="false" />
-            <element signature="e#2253#2626#0" expanded="false" />
+            <element signature="n#style#0;n#h1#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#1;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1241#1247#0" expanded="true" />
+            <element signature="e#1276#1282#0" expanded="true" />
+            <element signature="e#1344#1350#0" expanded="true" />
+            <element signature="e#1384#1390#0" expanded="true" />
+            <element signature="e#1419#1425#0" expanded="true" />
+            <element signature="e#1455#1461#0" expanded="true" />
+            <element signature="e#1494#1500#0" expanded="true" />
+            <element signature="e#1571#1577#0" expanded="true" />
+            <element signature="n#style#0;n#h1#2;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1940#1946#0" expanded="true" />
+            <element signature="e#1983#1989#0" expanded="true" />
+            <element signature="e#2036#2042#0" expanded="true" />
+            <element signature="e#2078#2084#0" expanded="true" />
+            <element signature="e#2125#2131#0" expanded="true" />
+            <element signature="n#style#0;n#p#22;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2322#2328#0" expanded="true" />
+            <element signature="n#style#0;n#p#23;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2577#2584#0" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#3238#3246#0" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#form#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/secondpage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="198">
           <caret line="36" column="61" lean-forward="false" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
           <folding>
             <element signature="n#ul#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -865,16 +911,6 @@
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thirdpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="84" column="50" lean-forward="false" selection-start-line="84" selection-start-column="50" selection-end-line="84" selection-end-column="50" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -893,6 +929,32 @@
             <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#li#0;n#ul#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/js/common/thirdpage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="91" column="14" lean-forward="true" selection-start-line="84" selection-start-column="7" selection-end-line="91" selection-end-column="14" />
+          <folding>
+            <element signature="e#3130#3503#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thirdpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="76" column="93" lean-forward="false" selection-start-line="76" selection-start-column="93" selection-end-line="76" selection-end-column="93" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

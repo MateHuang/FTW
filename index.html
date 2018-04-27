@@ -62,25 +62,44 @@
             </section>
             
             <div class="instro-one" id="videos">
-                <div class="instro-one-top" style="cursor: pointer;" onclick="window.open('./secondpage.html?#name=video','_self')">
+                <div class="instro-one-top" style="cursor: pointer;">
                     <p>VIDEO</p>
                     <p>短视频</p>
                     <div class="skew-line"></div>
                 </div>
                 <ul class="instro-one-box">
                     <li>
-                        <div data-movie="./videos/WeChatSight677.mp4">
-                            <img class="hover-img" src="./lib/images/intro_1_1.png" data-dynamic-src="./lib/images/hover_2.gif" alt=""/>
+                        <div data-movie="./videos/16-1.mp4">
+                            <!--<img class="hover-img" src="./lib/images/intro_1_1.png" data-dynamic-src="./lib/images/hover_2.gif" alt=""/>-->
+
+                            <video poster="./lib/images/intro_1_1.png" preload="meta" id="video1" style="" height="100%" width="100%">
+                                <source src="./videos/16-1.mp4"  type="video/mp4">
+                                您的浏览器不支持 video 标签。
+                            </video>
                         </div>
-                        <div data-movie="./videos/WeChatSight677.mp4">
-                            <img class="hover-img" src="./lib/images/intro_1_2.png" data-dynamic-src="./lib/images/hover_2.gif" alt=""/>
+
+                        <div data-movie="./videos/4.mp4">
+                            <!--<img class="hover-img" src="./lib/images/intro_1_2.png" data-dynamic-src="./lib/images/hover_2.gif" alt=""/>-->
+                            <!--poster="./lib/images/intro_1_2.png"-->
+                            <video poster="./lib/images/intro_1_2.png"  preload="meta" id="video2" style="" height="100%" width="100%">
+                                <source src="./videos/4.mp4"  type="video/mp4">
+                                您的浏览器不支持 video 标签。
+                            </video>
                         </div>
+
+
+
                     </li>
                     <li>
-                        <div data-movie="./videos/WeChatSight677.mp4">
-                            <img class="hover-img" src="./lib/images/intro_1_3.png" data-dynamic-src="./lib/images/hover_2.gif" alt=""/>
+                        <div data-movie="./videos/3-1.mp4">
+                            <!--<img class="hover-img" src="./lib/images/intro_1_3.png" data-dynamic-src="./lib/images/hover_2.gif" alt=""/>-->
+                            <video poster="./lib/images/intro_1_3.png"  preload="meta" id="video3" style="" height="100%" width="100%">
+                                <source src="./videos/3-1.mp4"  type="video/mp4">
+                                您的浏览器不支持 video 标签。
+                            </video>
                         </div>
-                        <div class="more">
+
+                        <div class="more" style="cursor:pointer;" onclick="window.open('./secondpage.html?#name=video','_self')">
                             <p style="font-size: 60px;font-family: Calibri;">VIDEO</p>
                             <span><strong>短视频</strong></span>
                             <span class="radius"><strong>></strong></span>
@@ -90,11 +109,19 @@
                         </div>
                     </li>
                     <li>
-                        <div data-movie="./videos/WeChatSight677.mp4">
-                            <img class="hover-img" src="./lib/images/intro_1_4.png" data-dynamic-src="./lib/images/hover_2.gif" alt=""/>
+                        <div data-movie="./videos/16-2.mp4">
+                            <!--<img class="hover-img" src="./lib/images/intro_1_4.png" data-dynamic-src="./lib/images/hover_2.gif" alt=""/>-->
+                            <video  preload="meta" id="video4" style="" height="100%" width="100%">
+                                <source src="./videos/16-2.mp4"  type="video/mp4">
+                                您的浏览器不支持 video 标签。
+                            </video>
                         </div>
-                        <div data-movie="./videos/WeChatSight677.mp4">
-                            <img class="hover-img" src="./lib/images/intro_1_5.png" data-dynamic-src="./lib/images/hover_2.gif" alt="">
+                        <div data-movie="./videos/3-2.mp4">
+                            <!--<img class="hover-img" src="./lib/images/intro_1_5.png" data-dynamic-src="./lib/images/hover_2.gif" alt="">-->
+                            <video  preload="meta" id="video5" style="" height="100%" width="100%">
+                                <source src="./videos/3-2.mp4"  type="video/mp4">
+                                您的浏览器不支持 video 标签。
+                            </video>
                         </div>
                     </li>
                 </ul>

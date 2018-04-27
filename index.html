@@ -310,7 +310,7 @@
             <section class="content-aim">
                 <div class="aim-content">
                     <img src="./lib/images/pc.png" alt="">
-                    <img src="./lib/images/aim-text.png" alt="">
+                    <img class="lazy" src="./lib/images/aim-text.png" alt="">
                 </div>
             </section>
             <section class="content-cooperate">
@@ -362,15 +362,15 @@
     <script src="./lib/js/swiper-jquery.min.js"></script>
     <script src="./lib/js/common.js"></script>
     <script>
-        // var mySwiper = new Swiper ('.swiper-container', {
-        //     autoplay: 1500,
-        //     autoplayDisableOnInteraction : false,
-        //     direction: 'horizontal',
-        //     effect : 'fade slide',
-        //     loop: true,
-        //     pagination: '.swiper-pagination'
-        // });
-        // $('body').scrollspy({ target: '#navbar-example' })
+        var mySwiper = new Swiper ('.swiper-container', {
+            autoplay: 1500,
+            autoplayDisableOnInteraction : false,
+            direction: 'horizontal',
+            effect : 'fade slide',
+            loop: true,
+            pagination: '.swiper-pagination'
+        });
+        $('body').scrollspy({ target: '#navbar-example' })
     </script>
 </body>
 </html>

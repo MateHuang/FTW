@@ -5,9 +5,17 @@
     <title>视频优选</title>
     <link rel="stylesheet" type="text/css" href="./lib/css/bootstrap.css"/>
     <link rel="stylesheet" type="text/css" href="./lib/css/secondarypage.css"/>
-    <link rel="stylesheet" type="text/css" href="./lib/css/swiper.min.css"/>
+    <!--<link rel="stylesheet" type="text/css" href="./lib/css/dropload.css"/>-->
     <link rel="stylesheet" type="text/css" href="./lib/css/animate.css"/>
     <link href="./lib/images/SecondaryPage/title_icon.png" rel="SHORTCUT ICON">
+    <style>
+        .dropload-refresh, .dropload-load {
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            font-size: 20px;
+        }
+    </style>
 
 </head>
 <body ng-app="myApp">
@@ -18,7 +26,8 @@
 <div class="container" ng-controller="ctl1">
 
     <div class="text-center" style="font-size: 18px;color: #666;margin-top:184px;margin-bottom: 15px;">
-        <strong><span style="color: rgb(112,112,112);font-size: 18px;">尊敬的：</span></strong><u><span  style="color: rgb(112,112,112);font-size: 18px;" id="name"></span></u>
+        <strong><span style="color: rgb(112,112,112);font-size: 18px;">尊敬的：</span></strong><u><span
+            style="color: rgb(112,112,112);font-size: 18px;" id="name"></span></u>
         <br>
         根据您的品类以及需求，我们帮您筛选了如下的案例视频<br>
         在阅读完视频后，对于视频进行喜好选择，在喜欢的视频内容下勾选like<br>
@@ -26,9 +35,11 @@
     </div>
 
     <div id="main" class="col-lg-12">
+        <div id="context">
 
+        </div>
     </div>
-    <div class="text-center" style="font-size: 18px;">
+    <div class="text-center" style="font-size: 18px;margin-bottom: 30px;">
         <strong>&nbsp;</strong>
 
     </div>
@@ -55,11 +66,11 @@
 </div>
 
 <script src="./lib/js/jquery.min.js"></script>
-<script src="./lib/js/scrollspy.js"></script>
-<script src="./lib/js/swiper-jquery.min.js"></script>
+<script src="./lib/js/dropload.js"></script>
+
 <script src="./lib/js/angular.min.js"></script>
 <script src="./lib/js/bootstrap.min.js"></script>
-<script src="./lib/js/common.js"></script>
+<!--<script src="./lib/js/common.js"></script>-->
 <script src="./lib/js/common/second.js"></script>
 
 </body>

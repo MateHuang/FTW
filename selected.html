@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="./lib/css/animate.css"/>
     <link href="./lib/images/SecondaryPage/title_icon.png" rel="SHORTCUT ICON">
     <style>
-        .dropload-refresh, .dropload-load {
+        .dropload-refresh, .dropload-load,.dropload-noData {
             height: 50px;
             line-height: 50px;
             text-align: center;
@@ -18,7 +18,7 @@
     </style>
 
 </head>
-<body ng-app="myApp">
+<body>
 
 <div style="padding: 0px;">
     <img class="col-lg-12 col-md-12 col-xs-12" src="lib/images/SecondaryPage/head.png">
@@ -39,10 +39,16 @@
 
         </div>
     </div>
-    <div class="text-center" style="font-size: 18px;margin-bottom: 30px;">
+    <div class="text-center" style="font-size: 18px;">
         <strong>&nbsp;</strong>
 
     </div>
+
+    <div class="col-lg-offset-1" style="vertical-align: center;">
+        第<label id="PageStart">0</label>页/共<label id="PageEnd">0</label>页
+    </div>
+
+
 
     <div class="confirm" style="cursor:pointer">
         <div style="font-size: 30px;">确认提交</div>

@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffbef8ac-d5a3-4f60-bf0e-dc025dc45f66" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/lib/js/common/second.js" afterPath="$PROJECT_DIR$/lib/js/common/second.js" />
-      <change beforePath="$PROJECT_DIR$/lib/js/dropload.js" afterPath="$PROJECT_DIR$/lib/js/dropload.js" />
-      <change beforePath="$PROJECT_DIR$/selected.html" afterPath="$PROJECT_DIR$/selected.html" />
+      <change beforePath="$PROJECT_DIR$/lib/css/secondarypage.css" afterPath="$PROJECT_DIR$/lib/css/secondarypage.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="selected.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="selected.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/selected.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
@@ -30,6 +27,26 @@
                 <element signature="n#style#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#6;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="secondpage.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/css/secondpage.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="secondarypage.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/css/secondarypage.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="111" column="16" lean-forward="true" selection-start-line="111" selection-start-column="16" selection-end-line="111" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -151,7 +168,6 @@
         <option value="$PROJECT_DIR$/lib/html/directives/pic.htm" />
         <option value="$PROJECT_DIR$/lib/js/common/public_v7.js" />
         <option value="$PROJECT_DIR$/SecondaryPages.html" />
-        <option value="$PROJECT_DIR$/lib/css/secondarypage.css" />
         <option value="$PROJECT_DIR$/secondpage3.html" />
         <option value="$PROJECT_DIR$/lib/html/second_1.html" />
         <option value="$PROJECT_DIR$/lib/html/second_2.html" />
@@ -172,6 +188,7 @@
         <option value="$PROJECT_DIR$/lib/js/dropload.js" />
         <option value="$PROJECT_DIR$/lib/js/common/second.js" />
         <option value="$PROJECT_DIR$/selected.html" />
+        <option value="$PROJECT_DIR$/lib/css/secondarypage.css" />
       </list>
     </option>
   </component>
@@ -298,12 +315,12 @@
       <workItem from="1525243509712" duration="1312000" />
       <workItem from="1525246585470" duration="5547000" />
       <workItem from="1525252485855" duration="7299000" />
-      <workItem from="1525339919926" duration="6814000" />
+      <workItem from="1525339919926" duration="7503000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="251738000" />
+    <option name="totallyTimeSpent" value="252427000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="753" extended-state="6" />
@@ -563,13 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/css/secondpage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/js/common/secondpage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -616,13 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-550">
           <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/css/secondarypage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -779,6 +782,22 @@
             <element signature="n#style#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#6;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/css/secondpage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/css/secondarypage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="111" column="16" lean-forward="true" selection-start-line="111" selection-start-column="16" selection-end-line="111" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>

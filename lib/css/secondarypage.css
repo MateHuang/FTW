@@ -109,6 +109,7 @@ p:not(.title){
 
 .pic_foot_2:hover{
     background: rgb(255,148,2);
+    opacity:0.6;
 }
 
 .pic_hover{
